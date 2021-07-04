@@ -10,15 +10,14 @@ h2 {
 }
 
 /* banner area */
-
 .banner-area {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     display: flex;
     padding-left: 8%;
+    padding-bottom: 150px;
 }
 /* banner left */
-
 .banner-left {
     width: 50%;
 }
@@ -38,10 +37,30 @@ h2 {
     background-image: linear-gradient(#FF9672,#FF6F51); 
 }
 /* banner right */
-
 .banner-right {
     width: 50%;
 }
 .banner-right img {
     width: 80%;
+}
+
+/* dream area */
+.dream-area {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    padding-left: 8%;
+    padding-bottom: 150px;
+}
+/* dream left */
+.dream-left {
+    width: 50%;
+}
+.dream-left img {
+    width: 80%;
+}
+/* dream right */
+.dream-right {
+    width: 50%;
 }
