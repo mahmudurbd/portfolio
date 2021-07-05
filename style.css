@@ -9,10 +9,12 @@ h2 {
     font-size: 35px;
 }
 
-/*------- banner area -------*/
+/*------- banner area ------- */
 .banner-area {
     background-image: url(images/top-banner.png);
+    background-color: #3498db15;
     background-repeat: no-repeat;
+    background-blend-mode: darken;
     display: flex;
     padding-left: 8%;
     padding-bottom: 150px;
@@ -47,11 +49,13 @@ h2 {
 /*----- dream area -------*/
 .dream-area {
     background-image: url(images/dream-bg.png);
+    background-color: #ff9ff227;
     background-repeat: no-repeat;
     background-position: right;
     display: flex;
     padding-left: 8%;
     padding-bottom: 150px;
+    padding-top: 30px;
 }
 /* dream left */
 .dream-left {
@@ -68,10 +72,13 @@ h2 {
 /*------ experiecne area ------*/
 .experience-area {
     background-image: url(images/exp-bg.png);
-    background-position: left;
+    background-color: #5e27cd17;
+    background-position: left center;
+    /* background-color:rgba(230, 49, 140, 0.164); */
+    /* background-blend-mode: darken; */
     background-repeat: no-repeat;
-    /* padding-left: 8%; */
     padding-bottom: 150px;
+    overflow: hidden;
 }
 
 /* experience content */
